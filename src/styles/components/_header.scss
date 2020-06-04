@@ -1,0 +1,27 @@
+.header{
+    background-color: $dark-blue;
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:$s-size 0;
+}
+.header__title{
+     color: white;
+     text-decoration: none;
+     background: none;
+    h1{
+        margin: 0;
+    }
+}
+.timer{
+   color: $green;
+   font-size: $sm-size;
+    span{
+        font-size: $m-size;
+        color:$off-white;
+    }
+}
+

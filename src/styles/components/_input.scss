@@ -1,0 +1,28 @@
+@mixin inputFeatures {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-medium;
+    font-weight: 300;
+    padding: $s-size;
+}
+
+.text-input {
+    @include inputFeatures;
+}
+.box-layout__box{
+   input{
+       @include inputFeatures;
+       margin-bottom: 10px;
+   }
+}
+.select {
+    @include inputFeatures;
+}
+.textarea {
+    @include inputFeatures;
+    height: 10rem;
+    resize: none;
+    @media screen and (min-width:$desktop-breakpoint){
+    width: 360px;
+    }
+}

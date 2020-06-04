@@ -1,0 +1,60 @@
+[
+    {
+      "question": "Which State has the longest coastline?",
+      "videoURL": "",
+      "videoType":"",
+      "imageURL": "",
+      "options": [
+        "Kerala",
+        "Tamil Nadu",
+        "Gujarat",
+        "Andhra Pradesh"
+      ]
+    },
+    {
+      "question": "Which historical monument is this?",
+      "videoURL": "",
+      "videoType":"",
+      "imageURL": "https://www.thehindu.com/news/national/other-states/5ftu57/article30490749.ece/ALTERNATES/LANDSCAPE_1200/06BMBIBIKAMAQBARA",
+      "options": [
+        "Taj Mahal",
+        "Bibi Ka Maqbara",
+        "Taj Mahal of Bangalore",
+        "Taj Mahal, Kota"
+      ]
+    },
+    {
+      "question": "What is the topic of concern in this video?",
+      "videoURL": "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm",
+      "videoType":"video/mp4",
+      "imageURL": "",
+      "options": [
+        "Water Irrigation",
+        "Water Harvesting",
+        "Water Resource Management",
+        "Beef Management"
+      ]
+    },
+    {
+      "question": "How many times hour hand and minute hand coincide in 24Hrs?",
+      "videoURL": "",
+      "videoType":"",
+      "imageURL": "",
+      "options": [
+        "24",
+        "12",
+        "23",
+        "22"
+      ]
+    },
+    {
+      "question": "Is Narendra Modi India's PM?",
+      "videoURL": "",
+      "videoType":"",
+      "imageURL": "",
+      "options": [
+        "True",
+        "False"
+      ]
+    }
+  ]
