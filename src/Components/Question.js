@@ -9,8 +9,8 @@ export const Question = (props) => {
         var videoJsOptions = {
             autoplay: false,
             controls: true,
-            height: 300,
-            width: 400,
+            height: 200,
+            width: 300,
             playbackRates: [0.5, 1, 1.5, 2],
             sources: [{
                 src: question.videoURL,

@@ -2,6 +2,9 @@
     max-width: 80%;
     margin: 0 auto;
     padding: 0 $m-size;
+    @media only screen and (max-width:($desktop-breakpoint)-1){
+        font-size: 1.3rem;
+    }
 }
 .question-container {
     height: 52vh;
@@ -10,6 +13,10 @@
         font-size: 20px;
         font-weight: bold;
     }
+    @media only screen and (max-width:($desktop-breakpoint)-1){
+    
+    }
+
 }
 .button-container {
     text-align: center;
@@ -18,13 +25,13 @@
         width: 87px;
     }
 }
-.submit-container{
-    h2{
-    text-align:center;
-    margin-bottom: 100px;
-    color:green;
+.submit-container {
+    h2 {
+        text-align: center;
+        margin-bottom: 100px;
+        color: green;
     }
-    p{
+    p {
         color: green;
         font-size: 20px;
         margin-left: 37px;
@@ -37,5 +44,13 @@
         text-align: center;
         margin-top: 50px;
         background-color: darkcyan;
+    }
+}
+.instructions {
+    @media only screen and (max-width: ($desktop-breakpoint)-1) {
+        pre {
+            margin: 0 auto;
+            white-space: pre-wrap;
+        }
     }
 }

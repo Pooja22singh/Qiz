@@ -1,27 +1,38 @@
-.header{
+.header {
     background-color: $dark-blue;
     margin: 0;
+    .content-container {
+        @media only screen and (max-width: ($desktop-breakpoint)-1) {
+            padding: 0;
+        }
+    }
 }
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:$s-size 0;
+    padding: $s-size 0;
+    @media only screen and (max-width: ($desktop-breakpoint)-1) {
+        font-size: 1rem;
+        width: 85vw;
+        margin: 0 auto;
+    }
 }
-.header__title{
-     color: white;
-     text-decoration: none;
-     background: none;
-    h1{
+.header__title {
+    color: white;
+    text-decoration: none;
+    background: none;
+    h1 {
         margin: 0;
     }
 }
-.timer{
-   color: $green;
-   font-size: $sm-size;
-    span{
-        font-size: $m-size;
-        color:$off-white;
+.timer {
+    color: $green;
+    font-size: $sm-size;
+    @media only screen and (max-width: ($desktop-breakpoint)-1) {
+        font-size: 1.2rem;
+    }
+    span {
+        color: $off-white;
     }
 }
-

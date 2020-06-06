@@ -4,7 +4,12 @@
     height: 100vh;
     background-size: cover;
     font-size: $m-size;
-    background-blend-mode: lighten;
+    background-blend-mode: lighten; 
+    @media only screen and (max-width:($desktop-breakpoint)-1){
+        background: url(/images/bg_mobile.jpg) no-repeat;
+    background-size: cover;
+
+    }
 }
 
 .box-layout__box {
